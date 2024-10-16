@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal con Fondo Blurreado</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <div id="blur-background" class="blur-background"></div>
+
+    <button id="openModalBtn">Guardar</button>
+
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal" class="close">&times;</span>
+            <h2>¿Seguro que deseas guardar?</h2>
+            <p>Esta acción no se podrá deshacer.</p>
+            <button id="acceptBtn" class="modal-button accept">Aceptar</button>
+            <button id="cancelBtn" class="modal-button cancel">Cancelar</button>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
